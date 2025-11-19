@@ -1,0 +1,85 @@
+.container {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    color: red;
+    background-color: #eefa06;
+}
+
+.subcontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    width: 90%;
+    justify-content: flex-start;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+   
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    align-self: center;
+    max-width: 600px;
+    border-radius:8px;
+    padding: 20px;
+}
+
+.textarea {
+    width: 100%;
+    height: 250px;
+    font-size: 16px;
+    border: 3px solid #eefa06;
+    border-radius: 4px;
+    resize: vertical;
+    padding: auto;
+
+}
+
+.submit-button {
+    align-self: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #41a8d0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.logo {
+    max-width: 200px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.textbox-image {
+    max-height: 150px;
+    margin-bottom: 20px;
+}
+
+.results {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: rgb(247, 33, 44);
+    border-radius:8px;
+    padding: 20px;
+    color: white;
+    height: 250px;
+    overflow-y: scroll;
+}
+
+@media screen and (max-width: 800px){
+    .subcontainer {
+        flex-direction: column;
+    }
+}
