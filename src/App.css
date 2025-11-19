@@ -75,11 +75,15 @@
     padding: 20px;
     color: white;
     height: 250px;
-    overflow-y: scroll;
+    overflow: scroll;
 }
 
 @media screen and (max-width: 800px){
     .subcontainer {
         flex-direction: column;
+    }
+
+    .results {
+        margin-right:30px;
     }
 }
