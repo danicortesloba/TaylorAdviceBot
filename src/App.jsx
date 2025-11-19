@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Form from './components/form.jsx'
 import Results from './components/results.jsx'
+import Footer from './components/footer.jsx'
 import './App.css'
 import taylorImage from "./assets/taylor.jpg"
 
@@ -58,7 +59,8 @@ const fetchAnswer = async (prompt) => {
       <div className="subcontainer">
         <Form setQuery={setQuery} fetchAnswer={fetchAnswer} clearAnswer={() => setAnswer("")} loading={loading} setLoading={setLoading} />
         <Results answer={answer} loading={loading}/>
-      </div>    
+      </div> 
+      <Footer />   
     </div>
   )
 }

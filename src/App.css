@@ -78,6 +78,15 @@
     overflow: scroll;
 }
 
+.footer {
+    margin-top: auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #f1f1f1;
+    width: 100%;
+    color: black;
+}
+
 @media screen and (max-width: 800px){
     .subcontainer {
         flex-direction: column;
