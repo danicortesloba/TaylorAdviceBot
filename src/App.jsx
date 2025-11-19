@@ -21,7 +21,7 @@ const fetchAnswer = async (prompt) => {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        model: 'gpt-5-nano',
+        model: 'gpt-4.1-mini',
         messages: [
           {
             role: 'system',
